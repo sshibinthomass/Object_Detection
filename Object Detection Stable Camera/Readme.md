@@ -1,1 +1,1 @@
-#Object Detection on Stable Camera
+Object Detection on Stable Camera

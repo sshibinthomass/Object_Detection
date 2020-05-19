@@ -1,4 +1,4 @@
-import cv2, time, pandas
+import cv2, time, pandas  # Importing packange
 from datetime import datetime
 
 video = cv2.VideoCapture(0)
@@ -6,7 +6,6 @@ first_frame = None
 status_list = [None, None]
 times = []
 df = pandas.DataFrame(columns=["Start", "End"])
-
 
 while True:
     check, frame = video.read()

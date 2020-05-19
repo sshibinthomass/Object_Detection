@@ -1,7 +1,7 @@
 import cv2, time, pandas  # Importing packange
 from datetime import datetime
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(0) #Opening Webcam
 first_frame = None
 status_list = [None, None]
 times = []

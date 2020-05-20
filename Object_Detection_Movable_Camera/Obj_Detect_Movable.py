@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-cap = cv2.VideoCapture(0) #open camera
+cap = cv2.VideoCapture(0)  # open camera
 
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
